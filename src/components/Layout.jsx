@@ -5,11 +5,13 @@ import FloatingButton from './FloatingButton';
 
 const Layout = ({ children }) => {
   return (
-    <div className="flex relative flex-col items-start">
+    <div 
+    // className="flex relative flex-col items-start"
+    >
       <Header />
       <main>{children}</main>
-      <Footer />
-      <FloatingButton />
+      {/* <Footer />
+      <FloatingButton /> */}
     </div>
   );
 };
